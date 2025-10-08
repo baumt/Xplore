@@ -1,5 +1,48 @@
 # Xplore: Developer Toolkit
-A toolkit for every ServiceNow developer. Find more at https://thewhitespace.io.
+A toolkit for every ServiceNow developer.
+
+### Version 5.02 - February 12, 2025
+* Removed use of CDN's; dependencies are all local.
+* Added toolbar to script editor for common actions including find and replace.
+* Automatic script linting and code folding is now supported.
+* Added support for syntax macros.
+* Added support for code completion.
+* Added support for Script Debugger.
+* Scoped script execution access warning has been hidden.
+* Added example (inactive) Scheduled Script Action for cleaning up Xplore user script includes.
+* Disabled user script include versions and update set history.
+* Fixed a bug where a new user script include would be created when impersonating.
+* Made the breadcrumb clearer for undefined and null values.
+* Minor UX upgrades.
+
+### Version 5.01 - November 19, 2024
+* Fixed "Open List in Xplore" list action. 
+
+### Version 5.00 - November 18, 2024
+* Redesigned the exploration experience with dynamic execution and nested property caching.
+* Improved explored object descriptions.
+* Fixed scoped execution for Xanadu.
+* Fixed issue preventing "Add Existing File" from working in Studio.
+* Improved glasses icon placement when resizing the browser in Polaris experience.
+* Xplore will automatically switch to the user's application scope by default.
+* Support for latest ECMAScript modes. (Requires application JavaScript mode to be set.)
+* Several other minor updates and fixes.
+
+### Version 4.13
+* Fixed snd_xplore_glasses script so it doesn't break in Studio or other applications.
+* Glasses icon has been replaced with the code-edit icon for San Diego versions.
+* Deprecated glasses support for UI15.
+* Fixed an issue where the notification area in lower right corner prevents "Show" links from working on smaller screens.
+
+### Version 4.12.1
+* Fixed JS Validation issue in pre-Tokyo versions caused by fix for Tokyo.
+
+### Version 4.12
+* Tested on Tokyo. Fixed issue preventing scripts from running.
+* The Xplore Glasses icon is now available in Polaris environments.
+* Added bracket matching in the code editor.
+* Swapped bootstrap CDN to better support IP restricted environments.
+* Added support for automatic code formatting.
 
 ### Version 4.11
 * Tested on Rome and San Diego.
